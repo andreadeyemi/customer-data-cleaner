@@ -1,7 +1,9 @@
 Name, Email, SignUp Date
 John Smith, john@example.com, 2023-01-05
-, noemail@example.com, 2023-01-06
+ , noemail@example.com, 2023-01-06
 Jane Doe, jane@example.com, 2023-01-07
 John Smith, john@example.com, 2023-01-05
-Test User,test@example.com,2023-01-08
+Test User, test@example.com, 2023-01-08
+Maria Davis, , 2023-01-09
+MARIO WATERS, mario@example.com, 2023-01-10
 chore: add sample test row
