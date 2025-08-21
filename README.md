@@ -1,36 +1,28 @@
 # Customer Data Cleaner
 
-A Python script that simulates real SaaS data cleanup before onboarding.  
-It removes bad emails, deletes duplicates, and standardizes messy column headers.
+# 🧠 Vision Scheduler
+
+> A smart CLI tool that finds gaps in your calendar and auto-schedules deep work using AI logic — no integrations, no noise.
 
 ---
 
-## 🧹 What It Does
+## 🚀 Why It Exists
 
-✅ Removes rows with missing emails  
-✅ Drops duplicate email entries  
-✅ Converts column headers to lowercase with underscores  
-✅ Outputs a clean CSV for import into CRMs or SaaS platforms
+Modern calendars are reactive. This tool flips the script — proactively searching your day for real deep work blocks.  
+Built for PMs, CSMs, engineers, and creators who need focus without overbuilding.
 
 ---
 
-## 📂 Files
+## ⚙️ What It Does
 
-- `clean_customers.py` → Main cleanup script  
-- `sample_customers.csv` → Sample messy dataset  
-- `cleaned_customers.csv` → Output (generated after running script)
-
----
-
-## 🔧 Tech
-
-- Python 3.8+
-- Pandas
+✅ Loads your daily calendar events  
+✅ Detects available gaps of at least 60 mins  
+✅ Outputs a CLI view with start/end and duration  
+✅ Runs offline — no auth, no calendar APIs
 
 ---
 
-## 🏁 Run It
+## 💻 Run It
 
 ```bash
-pip install pandas
-python clean_customers.py
+python run_scheduler.py
